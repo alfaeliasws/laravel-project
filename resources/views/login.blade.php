@@ -1,6 +1,6 @@
 <x-layout>
     <div>
-        <p class="text-white md:my-10 sm:my-8 my-5 md:mx-48 sm:mx-20 mx-10 tracking-widest md:text-4xl sm:text-2xl text-2xl uppercase font-sans font-bold">Register:</p>
+        <p class="text-white md:my-10 sm:my-8 my-5 md:mx-48 sm:mx-20 mx-10 tracking-widest md:text-4xl sm:text-2xl text-2xl uppercase font-sans font-bold">Login:</p>
         <div class="text-white min-h-min mb-10 bg-bluemain-dark-5 md:mx-48 sm:mx-20 mx-10 md:my-10 my-5 px-10 rounded-3xl shadow-new">
 
             <form action="/users/authenticate" method="POST" enctype="multipart/form-data" class="min-h-[100px]">
