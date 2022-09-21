@@ -197,10 +197,10 @@ CREATE TABLE `users` (
 --
 
 LOCK TABLES `users` WRITE;
-/*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,NULL,'JohnDoe22','John','Doe','johndoe@jon.com','$2y$10$0IbSf0hYzm5Nsg4vnkuacOEiPu58tqT8Ny5pWxJQcfWiBoQYdSoNi',NULL,'2022-09-19 09:05:54','2022-09-19 09:05:54');
-/*!40000 ALTER TABLE `users` ENABLE KEYS */;
-UNLOCK TABLES;
+-- /*!40000 ALTER TABLE `users` DISABLE KEYS */;
+-- INSERT INTO `users` VALUES (1,NULL,'JohnDoe22','John','Doe','johndoe@jon.com','$2y$10$0IbSf0hYzm5Nsg4vnkuacOEiPu58tqT8Ny5pWxJQcfWiBoQYdSoNi',NULL,'2022-09-19 09:05:54','2022-09-19 09:05:54');
+-- /*!40000 ALTER TABLE `users` ENABLE KEYS */;
+-- UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
